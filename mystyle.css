@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    text-decoration : none;
+    font-family: 'Roboto', sans-serif;
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    outline : none;
+    border : none;
+    line-height : 1.5; 
+    transition: all .2s linear;
+}
+
+html{
+    background : #5cdb95;
+    overflow-x: hidden;/**/
+    font-size : 62.5% ; /*wrt screen to make responsive in any device*/
+    scroll-behavior: smooth;
+}
+
+header{
+    position:fixed; /*scroll or not it should not move*/
+    display : flex;
+    flex-flow : column;
+    justify-content: space-between;
+    align-items: center; /*all in flex box*/
+    padding : 8rem 2rem;
+    background : #379683;
+    top: 0; /*spacing of the flex box*/
+    left: 0;
+    bottom: 0;
+    width : 30rem;
+}
+
+header a{
+    color:fff; /* fff for white*/
+
+
+}
+header .name{
+    text-transform: uppercase;
+}
+ header .name span
+ {
+     text-transform : uppercase;
+     color: #05386b;
+ }
+ header .nav a:hover{
+     letter-spacing: .2rem;
+     color:#05386b; 
+ }
+ header .nav a{
+     display:block;
+     font-size: 2rem;
+     margin:2rem 0;
+     align-items: center;
+ }
+ header .follow a{
+     margin :0 0.7rem;
+    font-size: 2.75rem;
+ }
+ header .name{
+     font-size: 2.75rem;
+ }
+ header .follow a:hover{
+     color:#05386b;
+ }
+
+ section{
+    padding:1rem;
+    min-height: 700;
+}
+.home {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+.content{
+    
+    margin-top: 1rem;
+    padding:.8rem 35rem;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.image{
+    margin-right: 10rem
+}
+.container {
+  
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+/* .c {width: 75%; background-color: #05386b;} */
+.cpp {width: 80%; background-color: #05386b;}
+.python {width: 55%; background-color: #05386b;}
+.ml {width: 65%; background-color: #05386b;}
+.html {width: 40%; background-color: #05386b;}
+.css {width: 35%; background-color: #05386b;}
+.js {width: 30%; background-color: #05386b;}
+.ps {width: 72%; background-color: #05386b;}
+.gg {width: 35%; background-color: #05386b;}
